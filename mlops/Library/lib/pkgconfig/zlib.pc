@@ -1,0 +1,13 @@
+prefix=D:/Impemention end to end/VS2_deployment/ML Project/mlops/Library
+exec_prefix=D:/Impemention end to end/VS2_deployment/ML Project/mlops/Library
+libdir=D:/Impemention end to end/VS2_deployment/ML Project/mlops/Library/lib
+sharedlibdir=D:/Impemention end to end/VS2_deployment/ML Project/mlops/Library/lib
+includedir=D:/Impemention end to end/VS2_deployment/ML Project/mlops/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
